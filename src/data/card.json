@@ -1,0 +1,12 @@
+{
+    "name": "Iados, Devil",
+    "type": "Legend",
+    "level": 1,
+    "health": 40,
+    "leveling": "Play 3 spells.",
+    "effect": "You may discard a card from your hand to gain one gold. This gold must be spent on a spell.",
+    "modifier": 2,
+    "pack": "Starter",
+    "number": "001",
+    "image": "/images/starter/starter-001.png"
+}
