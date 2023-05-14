@@ -18,6 +18,38 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#15162c] to-[#2e026d]">
+        <div className="container relative flex items-center justify-center">
+          <Image
+            src={cardData.image}
+            alt={cardData.name}
+            width={100}
+            height={100}
+          />
+          <Image
+            src={cardData.image}
+            alt={cardData.name}
+            width={100}
+            height={100}
+          />
+          <Image
+            src={cardData.image}
+            alt={cardData.name}
+            width={100}
+            height={100}
+          />
+          <Image
+            src={cardData.image}
+            alt={cardData.name}
+            width={100}
+            height={100}
+          />
+          <Image
+            src={cardData.image}
+            alt={cardData.name}
+            width={100}
+            height={100}
+          />
+        </div>
         <div className="container relative mx-4 my-16 flex flex-col items-center justify-center">
           <Image
             src={cardData.image}
@@ -53,6 +85,38 @@ const Home: NextPage = () => {
             height={300}
             onMouseLeave={() => setIsMyLegendLarge(false)}
             className={`absolute z-10 ${isMyLegendLarge ? "flex" : "hidden"}`}
+          />
+        </div>
+        <div className="container relative flex items-center justify-center">
+          <Image
+            src={cardData.image}
+            alt={cardData.name}
+            width={100}
+            height={100}
+          />
+          <Image
+            src={cardData.image}
+            alt={cardData.name}
+            width={100}
+            height={100}
+          />
+          <Image
+            src={cardData.image}
+            alt={cardData.name}
+            width={100}
+            height={100}
+          />
+          <Image
+            src={cardData.image}
+            alt={cardData.name}
+            width={100}
+            height={100}
+          />
+          <Image
+            src={cardData.image}
+            alt={cardData.name}
+            width={100}
+            height={100}
           />
         </div>
       </main>
