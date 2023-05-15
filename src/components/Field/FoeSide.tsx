@@ -1,7 +1,7 @@
 import { type NextComponentType } from "next";
 
 // import components
-import Card from "../Card";
+import Card from "../SingleCard";
 
 const PlayerSide: NextComponentType = () => {
   return (
