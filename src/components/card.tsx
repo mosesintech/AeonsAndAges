@@ -1,21 +1,29 @@
 import { useState } from "react";
-import { type NextComponentType } from "next";
 import Image from "next/image";
 
 import cardData from "../data/card.json";
 
-const Card: NextComponentType = () => {
+interface CardProps {
+  disableHover?: boolean;
+  backside?: boolean;
+}
+
+const Card: React.FC<CardProps> = (props: CardProps) => {
+  const { disableHover, backside } = props;
   const [isCardLarge, setIsCardLarge] = useState(false);
 
   return (
     <div className="relative">
       <Image
-        src={cardData.image}
-        alt={cardData.name}
+        src={backside ? "/images/backside.png" : cardData.image}
+        alt={backside ? "Aeons and Ages: The Card Game" : cardData.name}
         width={100}
         height={100}
+        onMouseEnter={() => {
+          if (disableHover) return;
+          return setIsCardLarge(true);
+        }}
         onMouseLeave={() => setIsCardLarge(false)}
-        onMouseEnter={() => setIsCardLarge(true)}
       />
       <Image
         src={cardData.image}
