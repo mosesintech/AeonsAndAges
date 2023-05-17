@@ -6,7 +6,7 @@ import Card from "../SingleCard";
 const PlayerSide: NextComponentType = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="mb-12 flex">
+      <div className="mb-8 flex">
         <div className="mx-2 border border-dashed">
           <Card placeholderText="Armor" />
         </div>

@@ -9,9 +9,7 @@ const Field: NextComponentType = () => {
   return (
     <>
       <FoeSide />
-      <div className="relative h-full rotate-90 border border-dashed">
-        <Card location={true} placeholderText="Location" />
-      </div>
+      <Card placeholderText={undefined} foe={undefined} />
       <PlayerSide />
     </>
   );

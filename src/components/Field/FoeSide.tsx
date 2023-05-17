@@ -16,7 +16,7 @@ const FoeSide: NextComponentType = () => {
           <Card disableHover={true} backside={true} />
           <Card disableHover={true} backside={true} />
         </div>
-        <div className="mt-12 flex">
+        <div className="mt-8 flex">
           <div className="mx-2 border border-dashed">
             <Card foe={true} />
           </div>
