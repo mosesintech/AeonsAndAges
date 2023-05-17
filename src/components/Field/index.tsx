@@ -9,7 +9,9 @@ const Field: NextComponentType = () => {
   return (
     <>
       <FoeSide />
-      <Card placeholderText={undefined} foe={undefined} />
+      <div className="border border-dashed">
+        <Card placeholderText={undefined} foe={undefined} />
+      </div>
       <PlayerSide />
     </>
   );
