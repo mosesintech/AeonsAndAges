@@ -7,13 +7,13 @@ const PlayerSide: NextComponentType = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="mb-8 flex">
-        <div className="mx-2 border border-dashed">
+        <div className="mx-2 border border-dashed border-cyan-600">
           <Card placeholderText="Armor" />
         </div>
-        <div className="mx-2 border border-dashed">
+        <div className="mx-2 border border-dashed border-cyan-600">
           <Card placeholderText="Legend" />
         </div>
-        <div className="mx-2 border border-dashed">
+        <div className="mx-2 border border-dashed border-cyan-600">
           <Card placeholderText="Weapon" />
         </div>
       </div>
@@ -25,16 +25,16 @@ const PlayerSide: NextComponentType = () => {
       </div>
       <div className="absolute left-3/4 top-3/4">
         <div className="flex flex-row items-center">
-          <div className="mx-4 border border-dashed">
+          <div className="mx-4 border border-dashed border-cyan-600">
             <Card disableHover={true} backside={true} />
           </div>
-          <div className="mx-4 border border-dashed">
+          <div className="mx-4 border border-dashed border-cyan-600">
             <Card disableHover={true} />
           </div>
         </div>
       </div>
       <div className="absolute right-2/3 top-1/3">
-        <div className="flex h-96 w-96 flex-col flex-wrap items-center justify-center border border-dashed text-white">
+        <div className="flex h-96 w-96 flex-col flex-wrap items-center justify-center border border-dashed border-cyan-600 text-white">
           <p>Allies</p>
           <div className="flex w-full">
             <div className="m-2">
@@ -54,7 +54,7 @@ const PlayerSide: NextComponentType = () => {
             </div>
           </div>
 
-          <hr className="my-8 w-1/3 border border-dashed" />
+          <hr className="my-8 w-1/3 border border-dashed border-cyan-600" />
 
           <p>Items</p>
           <div className="flex w-full">
