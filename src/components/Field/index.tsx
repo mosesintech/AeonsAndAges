@@ -43,7 +43,7 @@ const Field: NextComponentType = () => {
         </div>
       </div>
       <FoeSide />
-      <div className="border border-dashed">
+      <div className="border border-dashed border-cyan-600">
         <Card placeholderText={undefined} foe={undefined} />
       </div>
       <PlayerSide />
